@@ -1,5 +1,6 @@
 export interface Human {
   name: string;
+  sayHello(): void;
 }
 
 export class Person implements Human {

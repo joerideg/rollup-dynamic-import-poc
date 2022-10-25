@@ -1,7 +1,16 @@
+import { getJoeri } from 'rollup-lib';
 import logo from './logo.svg';
 import './App.css';
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    setTimeout(() => {
+      console.log('get Joeri from react app');
+      getJoeri().then(joeri => joeri.sayHello());
+    }, 500);
+  });
+  
   return (
     <div className="App">
       <header className="App-header">

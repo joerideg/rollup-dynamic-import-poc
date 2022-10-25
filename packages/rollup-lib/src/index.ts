@@ -1,13 +1,9 @@
-const { Person } = await import('./person');
+export const getJoeri = async () => {
+  const { Person } = await import('./person');
 
-const joeri = new Person('Joeri');
-
-joeri.sayHello();
-console.log('done executing');
-
-export {
-  joeri,
+  return new Person('Joeri');
 };
+
 export {
   Human,
 } from './person';
