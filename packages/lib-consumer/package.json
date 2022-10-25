@@ -14,6 +14,6 @@
     "vite-plugin-top-level-await": "1.2.1"
   },
   "dependencies": {
-    "rollup-lib": "file:../rollup-lib/rollup-lib-0.0.0.tgz"
+    "rollup-lib": "^0.0.0"
   }
 }
