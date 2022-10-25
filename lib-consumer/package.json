@@ -1,0 +1,19 @@
+{
+  "name": "lib-consumer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vite-plugin-top-level-await": "1.2.1"
+  },
+  "dependencies": {
+    "rollup-lib": "file:../rollup-lib/rollup-lib-0.0.0.tgz"
+  }
+}
